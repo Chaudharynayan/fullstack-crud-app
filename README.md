@@ -11,13 +11,10 @@ The application allows users to create, view, update, complete, and delete tasks
 ## Live Demo Links
 
 Frontend:
-https://YOUR-VERCEL-LINK.vercel.app
+https://fullstack-crud-app-seven.vercel.app
 
 Backend:
-https://YOUR-RENDER-LINK.onrender.com
-
-GitHub Repository:
-https://github.com/YOUR_USERNAME/fullstack-crud-app
+https://fullstack-crud-app-ide7.onrender.com
 
 ---
 
