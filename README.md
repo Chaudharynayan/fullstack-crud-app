@@ -10,7 +10,11 @@ The application allows users to create, view, update, complete, and delete tasks
 
 ## Live Demo Link
 
+Frontend:
 https://fullstack-crud-app-seven.vercel.app
+
+Backend:
+https://fullstack-crud-app-ide7.onrender.com
 
 ---
 
@@ -95,8 +99,7 @@ npm -v
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fullstack-crud-app.git
-
+git clone https://github.com/Chaudharynayan/fullstack-crud-app.git
 cd fullstack-crud-app
 ```
 
@@ -109,7 +112,7 @@ cd backend
 
 npm install
 
-node server.js
+node index.js
 ```
 
 Backend will run on:
