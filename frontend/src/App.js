@@ -10,7 +10,7 @@ function App() {
 
   // Fetch tasks
   const fetchTasks = async () => {
-    const res = await fetch("http://localhost:5000/tasks");
+    const res = await fetch("https://fullstack-crud-app-ide7.onrender.com/tasks");
     const data = await res.json();
     setTasks(data);
   };
@@ -23,7 +23,7 @@ function App() {
   const addTask = async () => {
     if (!title.trim()) return;
 
-    await fetch("http://localhost:5000/tasks", {
+    await fetch("https://fullstack-crud-app-ide7.onrender.com/tasks", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -44,7 +44,7 @@ function App() {
     const confirmDelete = window.confirm("Delete this task?");
     if (!confirmDelete) return;
 
-    await fetch(`http://localhost:5000/tasks/${id}`, {
+    await fetch(`https://fullstack-crud-app-ide7.onrender.com/tasks/${id}`, {
       method: "DELETE",
     });
 
@@ -53,7 +53,7 @@ function App() {
 
   // Toggle complete
   const toggleTask = async (id) => {
-    await fetch(`http://localhost:5000/tasks/${id}/toggle`, {
+    await fetch(`https://fullstack-crud-app-ide7.onrender.com/tasks/${id}/toggle`, {
       method: "PATCH",
     });
 
@@ -74,7 +74,7 @@ function App() {
     );
     if (newDueDate === null) return;
 
-    await fetch(`http://localhost:5000/tasks/${task.id}`, {
+    await fetch(`https://fullstack-crud-app-ide7.onrender.com/tasks/${task.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
