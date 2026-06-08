@@ -8,13 +8,9 @@ The application allows users to create, view, update, complete, and delete tasks
 
 ---
 
-## Live Demo Links
+## Live Demo Link
 
-Frontend:
 https://fullstack-crud-app-seven.vercel.app
-
-Backend:
-https://fullstack-crud-app-ide7.onrender.com
 
 ---
 
